@@ -10,7 +10,7 @@ df = pd.read_csv('/Users/simranjitvirk/Downloads/Project2/WHO_Asia_Cancer_with_R
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = aap.server
 # Define the layout of the app
 app.layout = html.Div([
      html.H1("Cancer Impact in Asian Countries", style={'textAlign': 'center', 'color': '#007bff'}),
